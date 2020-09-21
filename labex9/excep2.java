@@ -21,9 +21,9 @@ public class excep2 {
         Scanner obj=new Scanner(System.in);
           try
                              {
-                 System.out.println("Enter the first integer:");                        
+                 System.out.println("Enter the first integer");                        
                  int y=obj.nextInt();
-                  System.out.println("Enter the second integer:");
+                  System.out.println("Enter the second integer");
                  int x=obj.nextInt();
                  int z=y/x;
                 z=Integer.parseInt( obj.next());
@@ -32,7 +32,7 @@ public class excep2 {
           }
           catch(ArithmeticException e)
           {
-                System.out.println("Arithmetic Exception--->"+e);
+                System.out.println("Arithmetic Exception"+e);
           }
              try
           {
@@ -41,11 +41,11 @@ public class excep2 {
           }
           catch(ArrayIndexOutOfBoundsException e)
           {
-                System.out.println("ArrayIndexOutOfBounds Exception--->"+e);
+                System.out.println("ArrayIndexOutOfBounds Exception"+e);
           }
              try
           {
-                 System.out.println("Enter str:");
+                 System.out.println("Enter str");
                  String u=obj.next();
                  int v=Integer.parseInt(u);
                  System.out.println(v);
@@ -53,18 +53,18 @@ public class excep2 {
           }
            catch(NumberFormatException e)
            {
-                 System.out.println("NumberFormat Exception--->"+e);
+                 System.out.println("NumberFormat Exception"+e);
            }
               try
           {
-                 System.out.println("Enter the string:");
+                 System.out.println("Enter the string");
                  String t=obj.next();
                   System.out.println(t.substring(1,6));
                
           }
           catch(StringIndexOutOfBoundsException e)
           {
-              System.out.println("StringIndexOutOfBounds Exception--->"+e);
+              System.out.println("StringIndexOutOfBounds Exception"+e);
           }
     }
     
