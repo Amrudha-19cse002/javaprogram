@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package labex;
+package labex9;
 import java.util.Scanner;
 
 /**
  *
- * @author velmurugan
+ * @author Desktop pc
  */
 public class Excep1 {
 
@@ -20,7 +20,7 @@ public class Excep1 {
         // TODO code application logic here
            Scanner obj = new Scanner(System.in);
         System.out.println("Enter name:");
-        String n = obj.next();  
+        String x = obj.next();  
         System.out.println("Enter age:");
         int age = obj.nextInt();
         System.out.println("Enter mail:");
@@ -69,8 +69,8 @@ void check() throws Exception
 class NameIncorrectFormatException extends Exception
 {
 
-    NameIncorrectFormatException(String n)
+    NameIncorrectFormatException(String x)
     {
-        super(n);
+        super(x);
     }
 }
